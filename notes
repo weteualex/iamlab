@@ -1,0 +1,21 @@
+# IAM Learning Log
+
+100-day plan: Day 1 = 2026-11-23 · SC-300 target: 2027-01-21 · Day 100 = 2027-03-02
+
+---
+
+## Day 1 — 2026-11-23
+**Hours:** 1
+**Did:** 
+- Read the Day 1 lesson: what IAM is, AAA, key vocabulary, JML lifecycle, IAM areas
+- Took the Day 1 quiz: 7/7
+- Created GitHub account (2FA enabled) and the iam-lab repo with notes/, scripts/, projects/
+- Started this learning log
+
+**Learned:** 
+- AuthN = proving who you are; AuthZ = what you're allowed to do. AuthN always comes first.
+- One identity can have many accounts across systems (AD, Salesforce, AWS).
+- IdP (Entra ID, Okta) authenticates users and vouches for them; SPs (Salesforce, Slack) trust it.
+- JML: joiner/mover/leaver. The mover step's missed removals cause privilege creep; slow leavers create orphaned accounts.
+- IAM areas: workforce IAM, CIAM, IGA, PAM. Identity is the new perimeter.
+
